@@ -31,6 +31,11 @@ namespace LohnabrechnungWpf
             WebBrowser webBrowser = new WebBrowser();
             webBrowser.Navigate("file:///C:/Users/somebody/Desktop/Test.html");
             webBrowser.InvokeScript("execScript", new object[] { "window.print();", "JavaScript" });
-        }   
+        }
+
+        private void BtnShowThirdPartyContent_Click(object sender, RoutedEventArgs e)
+        {
+            new winThirdPartyStuff().ShowDialog();
+        }
     }
 }

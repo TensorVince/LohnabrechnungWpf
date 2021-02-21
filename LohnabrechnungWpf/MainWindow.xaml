@@ -7,6 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button Name="btnPrint" Click="BtnPrint_Click" Content="Abrechnung drucken" HorizontalAlignment="Left" Margin="258,123,0,0" VerticalAlignment="Top" Width="139"/>
+        <Button Name="btnPrint" Click="BtnPrint_Click" Content="Abrechnung drucken" HorizontalAlignment="Left" Margin="183,225,0,0" VerticalAlignment="Top" Width="139"/>
+        <Menu HorizontalAlignment="Stretch" Height="23" VerticalAlignment="Top" Width="auto">
+            <MenuItem Header="About" VerticalAlignment="Stretch" Height="23" Width="58">
+                <MenuItem Name="btnShowThirdPartyContent" Header="ThirdParty Content" Click="BtnShowThirdPartyContent_Click"/>
+            </MenuItem>
+        </Menu>
     </Grid>
 </Window>
