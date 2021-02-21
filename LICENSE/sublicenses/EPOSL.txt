@@ -1,0 +1,124 @@
+--------------------------------------------------------------------------------------
+EXTENDED PEACEFUL OPEN SOURCE LICENSE (EPOSL)
+--------------------------------------------------------------------------------------
+Author: Vincenzo Galati
+Last Update (yyyy-MM-dd): 2021-02-18
+Repository: https://github.com/TensorVince/PeacefulOpenSourceLicense 
+Direkt Link: https://raw.githubusercontent.com/TensorVince/PeacefulOpenSourceLicense/master/EPOSL.txt
+
+Note:
+This license is based on the "PEACEFUL OPEN SOURCE LICENSE" (POSL).
+It contains some security mechanisms to prevent fraudsters from circumventing POSL requirements.
+This license is automatically used as soon as someone uses POSL licensed components without agreeing to POSL.
+
+This license also contains parts of the MIT License.
+You can read the original version here: 
+https://opensource.org/licenses/MIT
+
+--------------------------------------------------------------------------------------
+LICENSE:
+--------------------------------------------------------------------------------------
+You may use this project and/or parts of it
+for any purpose (commercial and non-commercial),
+including the embedding in your own projects or products (from now on only refered to as your products),
+as long as you agree and comply to the following terms:
+
+1. Peaceful use
+***************
+You agree that you and your company are neither participating in 
+the violation of human rights nor the harm of humans or other living beings.
+
+Explanation:
+If your business or purpose includes the harm of living beings, 
+or included the harm of living beings in the past,
+you are NOT ALLOWED to use this project or parts of it.
+
+This applies in the first place but is not limited to 
+the following industries and purposes:
+ - military
+ - animal slaughter or fishing
+ - violation of human rights or privacy
+
+2. Recursive Relicensing
+************************
+All "EXTENDED PEACEFUL OPEN SOURCE LICENSE"-licensed components stay "EXTENDED PEACEFUL OPEN SOURCE LICENSE"-licensed components.
+
+Explanation:
+If you make changes to this project or parts of it,
+you have to relicense them by using the EXTENDED PEACEFUL OPEN SOURCE LICENSE.
+
+If you make this project or parts of it available to someone else in any way,
+you have to do so by using the EXTENDED PEACEFUL OPEN SOURCE LICENSE.
+
+This applies in the first place but is not limited to the following sharing types:
+ - reusing of code e.g. through class libraries or executables (for example: Windows *.dll or *.exe, unix/linux *.so, mac os *.dylib)
+ - filesharing (e.g. via external media like DVD or USB, via network connections (wireless or wired), via http-servers or ftp-servers , via version control systems like GIT or SVN, via repository-hosters like GITHUB, via filehosters like pastebin or dropbox, via telecommunication applications (like skype), via e-mail, via chat, via social media, etc.)
+ - printed or virtual documents and pictures (physical e.g. printed or written on paper, or digital e.g. as pdf or microsoft word document)
+ - audio, visual and audiovisual (e.g. using a telephone, text-to-speech, photos or filmed material to share "EXTENDED PEACEFUL OPEN SOURCE LICENSE"-licensed components)
+ 
+You need to pass the requirements of the EXTENDED PEACEFUL OPEN SOURCE LICENSE to everyone who wants to use "EXTENDED PEACEFUL OPEN SOURCE LICENSE"-licensed components.
+If they do not accept the conditions of the "EXTENDED PEACEFUL OPEN SOURCE LICENSE", THEY ARE NOT ALLOWED TO USE "EXTENDED PEACEFUL OPEN SOURCE LICENSE"-licensed components.
+
+However, you are free to license parts of your product,
+that do not use "EXTENDED PEACEFUL OPEN SOURCE LICENSE"-licensed 
+components as you wish as long as your license complies 
+with "1. Peaceful use" from the EXTENDED PEACEFUL OPEN SOURCE LICENSE.
+
+3. Include a copy of the EXTENDED PEACEFUL OPEN SOURCE LICENSE
+**************************************************************
+If you share "EXTENDED PEACEFUL OPEN SOURCE LICENSE"-licensed components,
+you have to include at least one physical or digital copy 
+of the EXTENDED PEACEFUL OPEN SOURCE LICENSE.
+
+4. WITHOUT WARRANTY AND FITNESS FOR A PARTICULAR PURPOSE
+********************************************************
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, 
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A 
+PARTICULAR PURPOSE AND NONINFRINGEMENT. 
+
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, 
+DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, 
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH 
+THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+5. Severability
+***************
+As long as your product contains "EXTENDED PEACEFUL OPEN SOURCE LICENSE"-licensed components,
+all contractual restrictions are still valid, this applies especially to:
+ - "6. Development freeze if you or your company violate one or more terms of the EXTENDED PEACEFUL OPEN SOURCE LICENSE"
+ - "7. Explicit permit to reverse engineer your product"
+
+6. Development freeze if you or your company violate one or more terms of the EXTENDED PEACEFUL OPEN SOURCE LICENSE
+*******************************************************************************************************************
+As soon as you break one or more terms 
+or if you don't agree to one or more terms anymore,
+you lose your rights to use projects or components that are 
+licensed with one or more of the following licenses:
+ - PEACEFUL OPEN SOURCE LICENSE (POSL)
+ - EXTENDED PEACEFUL OPEN SOURCE LICENSE (EPOSL)
+ - PEACEFUL OPEN SOURCE PROXY LICENSE (POSPL)
+
+Also the following becomes prohibited for every product that 
+uses components that are licensed by at least one of the 
+before mentioned licenses:
+ - To further develop your product or parts of it
+    -> the only exceptions to this term are modifications to comply with the EXTENDED PEACEFUL OPEN SOURCE LICENCE
+ - Sharing your product or parts of it, if one can assume that it will be used to hurt other living beings than yourself, be it physically or mentally
+ - Selling your product or parts of it
+
+7. Explicit permit to reverse engineer your products
+****************************************************
+Explanation:
+You allow everyone to reverse engineer all products (hardware and software) 
+that contain components that are licensed with one or more of the following licenses:
+ - PEACEFUL OPEN SOURCE LICENSE (POSL)
+ - EXTENDED PEACEFUL OPEN SOURCE LICENSE (EPOSL)
+ - PEACEFUL OPEN SOURCE PROXY LICENSE (POSPL)
+
+This includes but is not limited to:
+ - disassembling
+ - decompiling
+ - port scanning
+ - fingerprinting
+ - footprinting
+ - reverse engineering in the broadest and deepest sense of its meaning
