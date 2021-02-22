@@ -14,6 +14,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 
+
 namespace LohnabrechnungWpf
 {
     /// <summary>
@@ -28,9 +29,13 @@ namespace LohnabrechnungWpf
 
         private void BtnPrint_Click(object sender, RoutedEventArgs e)
         {
-            WebBrowser webBrowser = new WebBrowser();
-            webBrowser.Navigate("file:///C:/Users/somebody/Desktop/Test.html");
-            webBrowser.InvokeScript("execScript", new object[] { "window.print();", "JavaScript" });
+            // A4-Dokument erstellen und Testtext ausgeben
+            A4Document a4Document = new A4Document();
+            a4Document.AddText("Test", 16, 30, 12, "Arial");
+
+            // Dokument als PDF speichern und gleich anzeigen
+            string tmpFilepath = System.IO.Path.GetTempFileName() + ".pdf";
+            a4Document.SaveFile(tmpFilepath, true);
         }
 
         private void BtnShowThirdPartyContent_Click(object sender, RoutedEventArgs e)

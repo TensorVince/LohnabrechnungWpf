@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LohnabrechnungWpf"
         mc:Ignorable="d"
-        Title="winThirdPartyStuff" Height="500" Width="450">
+        Title="Third-Party Komponenten" Height="500" Width="450">
     <Grid VerticalAlignment="Stretch">
         <StackPanel VerticalAlignment="Stretch">
             <TextBlock>Dieses Programm verwendet folgende Third-Party Produkte:<LineBreak />
