@@ -63,6 +63,8 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="A4Document.cs" />
+    <Compile Include="enums.cs" />
+    <Compile Include="Lohnabrechnung.cs" />
     <Compile Include="winThirdPartyStuff.xaml.cs">
       <DependentUpon>winThirdPartyStuff.xaml</DependentUpon>
     </Compile>

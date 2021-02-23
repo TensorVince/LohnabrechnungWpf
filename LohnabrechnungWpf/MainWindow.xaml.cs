@@ -31,7 +31,14 @@ namespace LohnabrechnungWpf
         {
             // A4-Dokument erstellen und Testtext ausgeben
             A4Document a4Document = new A4Document();
-            a4Document.AddText("Test", 16, 30, 12, "Arial");
+
+            for (var i = 0; i <= 30; i++)
+            {
+                a4Document.AddText($"-- {i}cm", 0, i, 6, "Arial");
+                a4Document.AddText($"-  {i + 0.5}cm", 0, i + 0.5, 5, "Arial");
+
+                a4Document.AddText($"| {i}cm", i, 0.2, 6, "Arial");
+            }
 
             // Dokument als PDF speichern und gleich anzeigen
             string tmpFilepath = System.IO.Path.GetTempFileName() + ".pdf";

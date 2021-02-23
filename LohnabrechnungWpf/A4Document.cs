@@ -24,11 +24,38 @@ namespace LohnabrechnungWpf
             m_XGobj = XGraphics.FromPdfPage(m_Page);
         }
 
+        /// <summary>
+        /// Rechnet Centimeter in Pixel-Koordinaten um, damit man 
+        /// Objekte leichter auf dem Din-A4 Blatt positionieren kann.
+        /// </summary>
+        /// <param name="xCM">Der X-Wert in Centimetern</param>
+        /// <param name="yCM">Der Y-Wert in Centimetern</param>
+        /// <returns></returns>
+        private Point GetMetricPositionAsPixelPoint(double xCM, double yCM)
+        {
+            double x = (m_Page.Width.Point / m_Page.Width.Centimeter) * xCM;
+            double y = (m_Page.Height.Point / m_Page.Height.Centimeter) * yCM;
+
+            //x = (m_Page.Width.Centimeter / m_Page.Width.Point) * xCM;
+            //y = (m_Page.Height.Centimeter / m_Page.Height.Point) * yCM;
+
+            Point retPoint = new Point(x, y);
+            return retPoint;
+        }
+
+        private void PositionLayoutRectangle(XRect layoutRectangle, Enums.E_VerticalBoundingBoxAlignment verticalAlignment = Enums.E_VerticalBoundingBoxAlignment.Top, Enums.E_HorizontalBoundingBoxAlignment horizontalAlignment = Enums.E_HorizontalBoundingBoxAlignment.Left)
+        {
+            
+        }
+
+
         public void AddText(string myText, double x, double y, double size = 30.0, string fontFamily = "Courier New")
         {
             XFont font = new XFont(fontFamily, size);
-            XRect boundingBox = new XRect(x, y, m_Page.Width, m_Page.Height);
-            m_XGobj.DrawString(myText, font, XBrushes.Black, x, y);
+            Point recalculatedXY = GetMetricPositionAsPixelPoint(x, y);
+            XRect layoutRectangle = new XRect(recalculatedXY.X, recalculatedXY.Y, m_Page.Width, m_Page.Height);
+            m_XGobj.DrawString(myText, font, XBrushes.Black, recalculatedXY.X, recalculatedXY.Y);
+            //m_XGobj.DrawString(myText, font, XBrushes.Black, layoutRectangle);
         }
 
         public void SaveFile(string savePath, bool viewFileAfterSave)

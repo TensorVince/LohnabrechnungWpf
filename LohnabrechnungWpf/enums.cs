@@ -27,5 +27,17 @@ namespace LohnabrechnungWpf
             SchleswigHolstein = 16384,
             Thueringen = 32768
         }
+
+        public enum E_HorizontalBoundingBoxAlignment
+        {
+            Left = 1,
+            Right = 2
+        }
+
+        public enum E_VerticalBoundingBoxAlignment
+        {
+            Top = 1,
+            Bottom = 2
+        }
     }
 }
